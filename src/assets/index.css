@@ -8,6 +8,10 @@
   font-display: swap;
 }
 
+:root {
+  background-color: rgba(3, 25, 38, 1);
+}
+
 body {
   margin: 0;
   font-family: 'Balisten';
