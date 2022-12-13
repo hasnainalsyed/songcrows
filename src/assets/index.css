@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Balisten';
+  src: url('./fonts/Balisten.woff2') format('woff2'),
+      url('./fonts/Balisten.woff') format('woff'),
+      url('./fonts/Balisten.svg#Balisten') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: 'Balisten';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: url('/public/images/cursor.png'), auto;
+  background-image: url('/public/images/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: orange;
+  border-radius: 21px;
+  box-shadow: dark-lg;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(2,17,26,.9) padding-box;
+  border-radius: 4px;
+  border-width: 1px;
+}
