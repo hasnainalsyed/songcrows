@@ -168,7 +168,7 @@ const Main = () => {
               <div className="col-md-6">
                 <div className="img-fluid d-flex flex-row align-items-center">
                   <img src="/logo.png" alt="Song Crows" className="img-fluid" />
-                  <p className="mb-0 ms-3 text-white lh-1 fs-3">contact@songcrows.com</p>
+                  <p className="mb-0 ms-3 text-white lh-1">contact@songcrows.com</p>
                 </div>
               </div>
               <div className="col-md-6">

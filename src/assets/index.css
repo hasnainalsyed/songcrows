@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'Balisten';
-  src: url('./fonts/Balisten.woff2') format('woff2'),
-      url('./fonts/Balisten.woff') format('woff'),
-      url('./fonts/Balisten.svg#Balisten') format('svg');
+  font-family: 'Atomosfer';
+  src: url('./fonts/Atomosfer.woff2') format('woff2'),
+      url('./fonts/Atomosfer.woff') format('woff'),
+      url('./fonts/Atomosfer.svg#Atomosfer') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -14,7 +14,7 @@
 
 body {
   margin: 0;
-  font-family: 'Balisten';
+  font-family: 'Atomosfer';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   cursor: url('/public/images/cursor.png'), auto;

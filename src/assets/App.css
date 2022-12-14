@@ -11,8 +11,8 @@
 
 .navbar .nav-item .nav-link {
   color: #fff;
-  font-size: 1.5rem;
-  letter-spacing: 0.04em;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
 }
 
 .half-n-half {
@@ -117,16 +117,16 @@ hr {
 .half-n-half .half-n-half-sect .content h3 {
   color: #EB5E28;
   font-weight: 500;
-  font-size: 1.875rem;
+  font-size: 2rem;
   margin-bottom: 0.5em;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
 }
 
 .half-n-half .half-n-half-sect .content p,
 .half-n-half .half-n-half-sect .content p a {
   color: #fff;
-  font-size: 1.25rem;
-  letter-spacing: 0.04em;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
 }
 
 .half-n-half .half-n-half-sect .img-wrapper img {
@@ -152,7 +152,7 @@ hr {
 
 .heading h2 {
   color: #EB5E28;
-  font-size: 3.5rem;
+  font-size: 2rem;
   margin-bottom: 1em;
 }
 
@@ -163,13 +163,13 @@ hr {
 
 .benefits h4 {
   color: #EB5E28;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   line-height: 1;
   margin: 1em 0;
 }
 
 .benefits p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #fff;
 }
 
@@ -200,7 +200,7 @@ hr {
 .team .team-member h4 {
   margin-top: 1.5rem;
   color: #EB5E28;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
 }
 
 .team .team-member p {
@@ -219,7 +219,8 @@ footer .footer-wrap img {
 }
 
 footer .footer-wrap p {
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
+  font-size: 1rem;
 }
 
 footer .footer-wrap .navbar-nav {
