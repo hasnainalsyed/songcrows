@@ -1,4 +1,3 @@
-
 .navbar {
   background-color: rgba(3, 25, 38, 0.9);
   z-index: 1;
@@ -15,13 +14,22 @@
   letter-spacing: 0.02em;
 }
 
+.navbar-toggler {
+  border-color: #EB5E28;
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAYUlEQVRIiWNgGAXDHjCi8cMYGBgUKTTzPgMDwypckpcYGBj+U4gvUujAUUBlgJ6KpjAwMKhTaOZNBgaGHBiHiULDsIH/NDBzFFARUKOouIRsIAuaBR0MDAx6VHDkKBhJAABq+Cm3c+86cAAAAABJRU5ErkJggg==');
+  filter: invert(44%) sepia(69%) saturate(2391%) hue-rotate(347deg) brightness(96%) contrast(91%);
+}
+
 .half-n-half {
   display: flex;
   flex-direction: column;
   transition: all 0.2s ease 0s;
   background: rgba(3, 25, 38, 0.9);
   border-radius: 0.75rem;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px,rgba(0, 0, 0, 0.2) 0px 5px 10px,rgba(0, 0, 0, 0.4) 0px 15px 40px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.4) 0px 15px 40px;
   margin-inline: 10%;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -132,8 +140,7 @@ hr {
 .half-n-half .half-n-half-sect .img-wrapper img {
   object-fit: contain;
   border-radius: 0.75rem;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px,rgba(0, 0, 0, 0.2) 0px 5px 10px,rgba(0, 0, 0, 0.4) 0px 15px 40px;
-  max-width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.4) 0px 15px 40px;
   display: block;
 }
 
@@ -147,7 +154,7 @@ hr {
 
 .benefits {
   --bs-gutter-y: 3rem;
-  --bs-gutter-x: 8rem;
+  --bs-gutter-x: 6rem;
 }
 
 .heading h2 {
@@ -180,7 +187,7 @@ hr {
 .team .team-member {
   text-decoration: none;
   text-align: center;
-  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
   transition-duration: 150ms;
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
   display: block;
@@ -240,6 +247,14 @@ button[aria-label="Minimize image"] {
   justify-content: center;
 }
 
+body [data-rmiz-modal-overlay="visible"] {
+  background-color: rgba(3, 25, 38, 0.9);
+}
+
+body [data-rmiz-modal-img] {
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .1));
+}
+
 .slick-arrow {
   height: 1.5rem;
   width: 1.5rem;
@@ -252,12 +267,12 @@ button[aria-label="Minimize image"] {
 }
 
 .slick-arrow.slick-prev {
-  transform: rotate(90deg) translate(0,50%);
+  transform: rotate(90deg) translate(0, 50%);
   transform-origin: center center;
 }
 
 .slick-arrow.slick-next {
-  transform: rotate(-90deg) translate(0,50%);
+  transform: rotate(-90deg) translate(0, 50%);
   transform-origin: center center;
 }
 
@@ -267,7 +282,7 @@ button[aria-label="Minimize image"] {
 
 .gallery .slick-track > div {
   padding: 0 15px;
-  filter: drop-shadow(10px 10px 10px rgba(0,0,0,.1));
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .1));
 }
 
 .gallery .slick-track > div img {
@@ -300,4 +315,90 @@ footer .footer-wrap .navbar-nav li a {
   color: #fff;
 }
 
+@media only screen and (max-width: 1024px) {
+
+  .half-n-half {
+    margin-inline: 5%;
+  }
+
+  .half-n-half .half-n-half-sect.right .content {
+    padding-right: 0;
+  }
+
+  .heading h2 {
+    font-size: 1.75rem;
+  }
+
+  .benefits {
+    --bs-gutter-y: 2.5rem;
+    --bs-gutter-x: 1rem;
+  }
+
+  .benefits svg {
+    height: 4rem;
+  }
+
+  .benefits h4,
+  .team .team-member h4,
+  .accordion-item .accordion-button {
+    font-size: 1.15rem;
+  }
+
+  .benefits p,
+  .team .team-member p,
+  .accordion-item .accordion-body,
+  footer .footer-wrap p {
+    font-size: 0.75rem;
+  }
+
+  .team .team-member img {
+    max-width: 100%;
+  }
+
+  .half-n-half .first-line, .half-n-half .second-line {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .half-n-half .second-line .group img:nth-child(2),
+  .half-n-half .second-line .group img:last-child {
+    width: 80px;
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+  .navbar .navbar-nav + .navbar-nav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .navbar .navbar-nav + .navbar-nav > li {
+    margin: 0 1rem;
+  }
+
+  .half-n-half .half-n-half-sect.right .content {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .half-n-half {
+    margin-inline: 2.5%;
+  }
+
+  .footer-wrap .row > div > .d-flex {
+    justify-content: center !important;
+  }
+
+  footer .footer-wrap .navbar-nav {
+    justify-content: center;
+    margin-bottom: 0 !important;
+    margin-top: 1rem !important;
+  }
+}
 

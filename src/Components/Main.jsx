@@ -15,7 +15,7 @@ const Main = () => {
           <img
             src="/images/main-banner.png"
             alt="Main Banner"
-            className="img-fluid"
+            className="img-fluid w-100"
           />
         </div>
       </section>
@@ -27,7 +27,7 @@ const Main = () => {
             <FirstLine />
 
             <div className="row align-items-center pt-3 pb-5 half-n-half-sect right">
-              <div className="col-lg-7 col-md-6">
+              <div className="col-12 col-lg-7">
                 <div className="content">
                   <h3>THE EARLY CROW</h3>
                   <p>CRO CROW is the very first NFT on the Cronos Chain. </p>
@@ -35,7 +35,7 @@ const Main = () => {
                   <p>This is the main NFT of the CRO CROW ecosystem, and holders passively earn a share of the project profits via airdrops or royalty distribution.</p>
                 </div>
               </div>
-              <div className="col-lg-5 col-md-6">
+              <div className="col-12 col-lg-5">
                 <div className="img-wrapper right">
                   <img src="/images/crocrow_gif-1.gif" alt="Crow Songs" className="img-fluid" />
                 </div>
@@ -79,7 +79,7 @@ const Main = () => {
 
       <footer>
         <div className="img-wrapper">
-          <img src="/images/footer.gif" alt="Song Crows" className="img-fluid" />
+          <img src="/images/footer.gif" alt="Song Crows" className="img-fluid w-100" />
         </div>
         <div className="footer-wrap">
           <div className="container">
