@@ -1,6 +1,11 @@
 import React from "react";
 import Benefits from "./Benefits";
+import FAQs from "./FAQs";
+import FirstLine from "./FirstLine";
+import Gallery from "./Gallery";
+import SecondLine from "./SecondLine";
 import SocialIcons from "./SocialIcons";
+import Team from "./Team";
 
 const Main = () => {
   return (
@@ -19,18 +24,7 @@ const Main = () => {
         <div className="half-n-half">
           <div className="container">
 
-            <div className="row first-line">
-              <div className="col-12">
-                <div class="group">
-                  <hr
-                    aria-orientation="horizontal"
-                    class="chakra-divider css-44cso2"
-                  />
-                  <img src="images/crow-1.png" alt="Song Crow" className="img-fluid" />
-                  <img src="images/crow-2.png" alt="Song Crow" className="img-fluid" />
-                </div>
-              </div>
-            </div>
+            <FirstLine />
 
             <div className="row align-items-center pt-3 pb-5 half-n-half-sect right">
               <div className="col-lg-7 col-md-6">
@@ -48,20 +42,13 @@ const Main = () => {
               </div>
             </div>
 
-            <div className="row second-line">
-              <div className="col-12">
-                <div class="group">
-                  <hr
-                    aria-orientation="horizontal"
-                    class="chakra-divider css-44cso2"
-                  />
-                  <img src="images/crow-1.png" alt="Song Crow" className="img-fluid" />
-                  <img src="images/crow-2.png" alt="Song Crow" className="img-fluid" />
-                </div>
-              </div>
-            </div>
+            <SecondLine />
 
-            <div className="row align-items-center pt-3 pb-5 half-n-half-sect left">
+            <Gallery />
+
+            <FirstLine />
+
+            {/* <div className="row align-items-center pt-3 pb-5 half-n-half-sect left">
               <div className="col-lg-5 col-md-6">
                 <div className="img-wrapper left">
                   <img src="/images/cronospunk_gif-2.gif" alt="Crow Songs" className="img-fluid" />
@@ -75,84 +62,16 @@ const Main = () => {
                   <p>This NFT eventually adopted by the CRO CROW team, since the original team became inactive and the community wanted to move forward..</p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="row first-line">
-              <div className="col-12">
-                <div class="group">
-                  <hr
-                    aria-orientation="horizontal"
-                    class="chakra-divider css-44cso2"
-                  />
-                  <img src="images/crow-1.png" alt="Song Crow" className="img-fluid" />
-                  <img src="images/crow-2.png" alt="Song Crow" className="img-fluid" />
-                </div>
-              </div>
-            </div>
+            {/* <FirstLine /> */}
 
             <Benefits />
-
-            <div className="row second-line">
-              <div className="col-12">
-                <div class="group">
-                  <hr
-                    aria-orientation="horizontal"
-                    class="chakra-divider css-44cso2"
-                  />
-                  <img src="images/crow-1.png" alt="Song Crow" className="img-fluid" />
-                  <img src="images/crow-2.png" alt="Song Crow" className="img-fluid" />
-                </div>
-              </div>
-            </div>
-
-            <div className="row team justify-content-center">
-              <div className="col-12">
-                <div className="heading text-center">
-                  <h2>THE CRO CROW TEAM   </h2>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <a href="www.twitter.com" className="team-member" target='_blank' rel="noreferrer">
-                  <img src="/images/destruction.png" alt="Destruction" className="img-fluid" />
-                  <h4>@destructioneth</h4>
-                  <p>Founder and Dev</p>
-                </a>
-              </div>
-              <div className="col-md-4">
-                <a href="www.twitter.com" className="team-member" target='_blank' rel="noreferrer">
-                  <img src="/images/alemf.png" alt="Alemf" className="img-fluid" />
-                  <h4>@ale_nf</h4>
-                  <p>Artist & Design</p>
-                </a>
-              </div>
-              <div className="col-md-4">
-                <a href="www.twitter.com" className="team-member" target='_blank' rel="noreferrer">
-                  <img src="/images/blueaxolotl.png" alt="Blueaxolotl" className="img-fluid" />
-                  <h4>@BlueAxolotlETH</h4>
-                  <p>Community Manager</p>
-                </a>
-              </div>
-              <div className="col-md-4">
-                <a href="www.twitter.com" className="team-member" target='_blank' rel="noreferrer">
-                  <img src="/images/joel.png" alt="Joel" className="img-fluid" />
-                  <h4>@Joel_</h4>
-                  <p>Discord Mod</p>
-                </a>
-              </div>
-            </div>
-
-            <div className="row first-line">
-              <div className="col-12">
-                <div class="group">
-                  <hr
-                    aria-orientation="horizontal"
-                    class="chakra-divider css-44cso2"
-                  />
-                  <img src="images/crow-1.png" alt="Song Crow" className="img-fluid" />
-                  <img src="images/crow-2.png" alt="Song Crow" className="img-fluid" />
-                </div>
-              </div>
-            </div>
+            <SecondLine />
+            <Team />
+            <FirstLine />
+            <FAQs />
+            <SecondLine />
 
           </div>
         </div>

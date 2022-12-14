@@ -17,11 +17,11 @@ body {
   font-family: 'Atomosfer';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  cursor: url('/public/images/cursor.png'), auto;
   background-image: url('/public/images/background.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
+  background-size: cover;
 }
 
 code {
